@@ -40,9 +40,9 @@ public class SetupConfig {
                 throw new RuntimeException();
             }
 
-            System.out.println("##################################################");
-            System.out.println("#  Your current IP Address : " + ip + "       #");
-            System.out.println("##################################################");
+            System.out.println("#############################################################");
+            System.out.println("#  Your current IP Address : " + ip + "    Port : 8085   #");
+            System.out.println("#############################################################");
 
         } catch (Exception e) {
             //e.printStackTrace();
